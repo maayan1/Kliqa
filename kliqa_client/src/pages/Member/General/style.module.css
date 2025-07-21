@@ -1,0 +1,30 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 16px;
+    padding: 1rem;
+    height: 90vh;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 5px;
+}
+
+.profile_img {
+    width: 25%;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: var(--purple);
+}
+
+button {
+    align-self: flex-end;
+}

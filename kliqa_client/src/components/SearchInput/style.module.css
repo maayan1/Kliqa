@@ -1,0 +1,8 @@
+.search {
+  border: 1px solid var(--purple);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  /* width: 30%; */
+}
