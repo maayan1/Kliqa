@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.member_nav {
+    display: flex;
+    gap: 1rem;
+    height: 60px;
+    width: 100%;
+    padding: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    /* border-bottom: 2px solid var(--background-2); */
+    /* background-color: var(--background-2); */
+}
+
+.member_nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.active {
+    background-color: var(--background-2);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
